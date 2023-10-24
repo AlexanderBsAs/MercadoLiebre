@@ -1,0 +1,235 @@
+.header_home{
+    /* background-image: url("../images/logo-mercado-liebre.svg"); */
+    background-color:var(--Amarillo);
+/*     background-repeat: no-repeat;
+    border: dashed 3px blue;
+    background-size: 200px;
+    height:166px;; */
+/*     border-bottom: outset 3px rgba(165, 42, 42, 0.322);
+    border-top: outset 3px rgba(165, 42, 42, 0.322); */
+   /*  background-position: left top;; */
+/*   padding: 20px;
+    */
+/*   height: 50%;
+  width: 125%; */
+}
+/* body{
+    width: 100%;
+}
+header{
+    width: 100%;
+}
+main{
+    width: 100%;
+} */
+.home_producto{
+    height: 100%;
+    width: 100%;
+}
+.home_banner{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+/* header{
+    height: 100%;
+    width: 100%;
+
+} */
+/* footer{
+    height: 100%;
+    width: 100%;
+} */
+
+.home-menu-hamburguesa{
+    background-color: #1259c3;
+    display: block;
+    text-align: center;
+    color: white;
+    margin: auto;
+    border-radius: 5px;
+    /* padding: 14px -34px; */
+    width: 2em;
+    height: 2em;
+   /*  font-size: 2em; */
+    /* border: #000 3px solid; */
+    
+}
+.fa-solid.fa-bars.fa-sm{
+    margin-top: 15px;
+     width: 2em;
+    height: 2em; 
+    margin-right: 0px; 
+  /*    font-size: 2em; */
+    /* border: #000 3px solid; */}
+
+.logo{
+  /*   background-image: url("../images/logo-mercado-liebre.svg"); */
+    height: 150px;
+/*     width: 250px; */
+/*     background-position: top left;
+    background-repeat: no-repeat; */
+   /*  border: solid 3px black; */
+  /*  display: block;
+   margin-bottom: -70px; */
+   margin-top: -25px;
+
+}
+.busqueda{
+    display: block;
+   /*  display: inline;
+    margin-right: 750px; */
+}
+
+.main_home{
+    background-color: var(--Gris-claro);
+}
+
+.footer_home{
+    background-color: white
+;
+/* border: #000 3px solid; */
+}
+.compra-cuotas{
+    margin-left: 30px;
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.home_productos{
+    background-color: white;
+/*     border: dashed 3px black; */
+    display: inline-block;
+    margin-bottom: 20px;
+   /*  margin-left:20%; */
+/*    margin-left:auto;
+   margin-right:auto
+    ;text-align: center;
+    align-items: center; */
+}
+:root{
+    --Amarillo: #EAC926;
+ --Azul: #03264C;
+--Celeste: #1259c3;
+--Gris-oscuro: #666;
+--Gris-claro: #ebebeb;
+--Verde: #39b54a; 
+}
+*{
+    font-family: 'Roboto', sans-serif;;
+}
+/* .fa-solid.fa-magnifying-glass{
+    margin-right: 1500px;
+    margin-bottom: 50px;
+} */
+.home_titulares{
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: var(--Gris-oscuro);
+    text-align: center;
+}
+.home_precios{
+    font-size: 18px;
+    margin-left: 12px;
+
+}
+/*  .fa-solid.fa-credit-card.fa-2xl{
+    margin-bottom: 10px;
+    height: 2em;
+    width: 2em;
+}  */
+
+.home_descripciones i{
+  
+    height: 2em;
+    width: 2em;
+
+}
+.home_producto{
+    margin-bottom: 40px;
+    
+}
+.home_envios{
+    margin-bottom: 10px;
+}
+.home_protegido{
+    margin-bottom: 10px;
+}
+.home_tarjeta{
+    margin-bottom: 10px;
+}
+.home_descuentos{
+    font-size: 16px;
+    margin-left: 12px;
+    color: var(--Verde);
+}
+.home_descripciones{
+    margin-top: 100px;
+    font-size: 16px;
+    background-position: center center;
+    text-align: center;
+    margin: auto;
+}
+.home_cuerpos_texto{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+.home_copyright{
+    margin-left: 10px;
+    color: var(--Gris-oscuro);
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.home-logo-busqueda{
+    margin-left: 10px;
+}
+
+.fa-solid.fa-credit-card.fa-2xl{
+
+}
+.home_titulo_producto{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.home_descripciones article i{
+   margin-top: 35px; 
+   color: var(--Celeste);
+}
+
+.home_busqueda{
+   /*  margin-right: 2200px;
+    border: #000 solid 3px; */
+}
+.fa-solid.fa-truck-fast{
+    margin-left: 250px;
+}
+
+.home_busqueda2{
+    background-color: var(--Gris-claro);
+    border: var(--Azul) 1px solid;
+}
+.home_descripciones i {
+    margin-bottom: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+
+/* .logo img{
+    height: 350px;
+    width: 250px;
+    7
+} */
+/* .busqueda{display: inline;}
+ */
