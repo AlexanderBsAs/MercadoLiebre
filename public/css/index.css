@@ -32,8 +32,8 @@ main{
 }
 
 body{
-    height: 100%;
-    width: 100%;
+    /* height: 100%; */
+    width: 90%;
 }
 /* header{
     height: 100%;
@@ -87,6 +87,8 @@ body{
 
 .main_home{
     background-color: var(--Gris-claro);
+    width:90%;
+    margin:auto;
 }
 
 .footer_home{
@@ -105,13 +107,16 @@ body{
 .home_productos{
     background-color: white;
 /*     border: dashed 3px black; */
-    display: inline-block;
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
    /*  margin-left:20%; */
 /*    margin-left:auto;
    margin-right:auto
     ;text-align: center;
     align-items: center; */
+    border-top: 1px #ebebeb solid;
+    padding:15px;
 }
 :root{
     --Amarillo: #EAC926;
@@ -123,6 +128,9 @@ body{
 }
 *{
     font-family: 'Roboto', sans-serif;;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 /* .fa-solid.fa-magnifying-glass{
     margin-right: 1500px;
@@ -133,7 +141,7 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
     color: var(--Gris-oscuro);
-    text-align: center;
+    text-align: center; 
 }
 .home_precios{
     font-size: 18px;
@@ -153,7 +161,9 @@ body{
 
 }
 .home_producto{
-    margin-bottom: 40px;
+    margin-bottom: 10px;
+
+    /* border: 2px saddlebrown solid; */
     
 }
 .home_envios{
@@ -213,7 +223,8 @@ a{
     border: #000 solid 3px; */
 }
 .fa-solid.fa-truck-fast{
-    margin-left: 250px;
+    /* margin-left: 250px; */
+    margin-bottom: 20px;
 }
 
 .home_busqueda2{
@@ -223,8 +234,118 @@ a{
 .home_descripciones i {
     margin-bottom: 10px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+ body{
+    height: 100vh;
+    width: 100vw;
+ }
+
+@media(max-width:320px){
+ .home_cuerpos_texto{
+    display: none;
+ }
+ .home_titulo_producto{
+    display:none;
+ }
+ .home_productos img{
+    border-bottom: 1px grey solid;
+ }
+
+
+
+
+}
+
+@media(min-width:361px){
+.home-menu-hamburguesa{
+    display: none;}
+    h4{
+        font-size:50px
+    }
+/*     p,a,i{
+        font-size:30px
+    } */
+
+    .home_cuerpos_texto a{
+        font-size:16px
+    }
+    .compra-cuotas{
+        font-size: 15px;
+    }
+
+    .home_titulo_producto{
+        font-size: 20px;
+    }
+   .home_titulares{
+    font-size:23px;
+   }
+   .home_descripciones2{
+    font-size: 16px;
+   }
+   .home_productos{
+    height:50%;
+    width: 50%;
+    margin: auto;
+   }
+   .home_productos{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+ }
+ .home_productos img{
+    border-bottom: 1px grey solid;
+ }
+ /*   .home_producto{
+    height:1%;
+    width: 1%;
+   } */
+}
+
+
+@media(min-width:769px){
+    .home-menu-hamburguesa{
+        display: none;
+    }
+  
+    h4{
+        font-size:50px
+    }
+/*     p,a,i{
+        font-size:30px
+    } */
+
+    .home_cuerpos_texto a{
+        font-size:17px
+    }
+    .compra-cuotas{
+        font-size: 16px;
+    }
+
+    .home_titulo_producto{
+        font-size: 25px;
+    }
+   .home_titulares{
+    font-size:30px;
+   }
+   .home_descripciones2{
+    font-size: 17px;
+   }
+   .home_productos{
+    height:30%;
+    width: 30%;
+    margin: auto;
+   }
+
+   .home_productos{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+ }
+}
+
+
+/* @media (min-width:720px){
+  .header_home {
+    background: red
+  };
+} */
 
 /* .logo img{
     height: 350px;
