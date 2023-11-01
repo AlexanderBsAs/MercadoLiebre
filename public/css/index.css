@@ -33,7 +33,7 @@ main{
 
 body{
     /* height: 100%; */
-    width: 90%;
+  /*   width: 90%; */
 }
 /* header{
     height: 100%;
@@ -203,6 +203,10 @@ a{
 }
 .home-logo-busqueda{
     margin-left: 10px;
+}
+.home-main-section{
+    /* width: 90%; */
+    margin:auto;
 }
 
 .fa-solid.fa-credit-card.fa-2xl{
