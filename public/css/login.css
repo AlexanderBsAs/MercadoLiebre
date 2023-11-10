@@ -1,0 +1,60 @@
+:root{
+    --Amarillo: #EAC926;
+ --Azul: #03264C;
+--Celeste: #1259c3;
+--Gris-oscuro: #666;
+--Gris-claro: #ebebeb;
+--Verde: #39b54a; 
+}
+*{
+    font-family: 'Roboto', sans-serif;;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.div-login{
+    text-align: center;
+    padding: 2%;
+    border: 2px solid var(--Gris-claro);
+}
+
+.formulario-login{
+    display: flex;
+    flex-direction: column;
+   /*  align-items: center; */
+
+}
+.div-login input{
+    border: 1px solid var(--Gris-claro);
+    padding: 2%;
+    border-radius: 8px;
+    margin-top: 2%;
+}
+.div-login button{
+    background-color: var(--Celeste);
+    padding: 1.5%;
+    border-radius: 5px;
+    color: var(--Gris-claro);
+}
+
+@media(min-width:768px){
+.div-login input{
+    padding: 1%;
+  margin-top: 1%;
+  width: 35%;
+}
+#usuario{
+   
+}
+}
+
+@media(min-width:1024px){
+    .div-login p{
+        font-size: 22px;
+    }
+    .div-login button{
+        font-size: 22px;
+        width: 20%;
+    }
+    
+}
