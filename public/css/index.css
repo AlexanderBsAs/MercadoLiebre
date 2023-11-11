@@ -17,7 +17,7 @@ body{
 
 .main_home{
     background-color: var(--Gris-claro);
-    width:90%;
+    width:100%;
     margin: 0px auto;
 }
 
@@ -99,7 +99,7 @@ a{
 }
 
 .home-main-section{
-    width: 90%; 
+    width: 100%; 
     margin:0px auto;
 }
 
@@ -142,10 +142,9 @@ top: 185px;
     height: 100vh;
     width: 100vw;
  }
+ 
 
 @media(max-width:320px){
-
- 
  .home_titulo_producto{
     display:none;
  }
@@ -153,28 +152,20 @@ top: 185px;
     border-bottom: 1px grey solid;
  }
 
-/*  .fa-solid.fa-truck-fast{
-    margin-bottom: 20px;
-        display: block;
-    font-size: 16px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #39b54a;
-    background-color: #FFF;
-    border-radius: 50%;
-    position: relative; 
-    right: 0px;
-    left:165px;
-    top: 185px;
-    }
-
-
-} */}
+}
 
 @media(min-width:768px){
-
-    h4{
+    .home-main-section{
+        outline: 2px solid black;
+    }
+       .home_productos{
+        display: grid;
+        outline: 2px solid black;
+        grid-template-columns: repeat();
+        } 
+        
+        h4{
+    
         font-size:50px
     }
 
@@ -207,19 +198,14 @@ top: 185px;
     justify-content: center;
     
    }
-/*    .main_home{
-    display: flex;
-    flex-direction: row;
-   } */
+
    .home-main-section2{
-/*     display: flex;
-    flex-direction: column; */
+
     margin-top: 20px;
     padding-bottom: 20px;
    }
    .home-main-section1{
-/*     display: flex;
-    flex-direction: column; */
+
     margin-top: 20px;
     margin-bottom: 20px;
     

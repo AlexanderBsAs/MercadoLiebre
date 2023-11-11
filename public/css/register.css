@@ -46,6 +46,9 @@ main{
 .input-texto{
     padding-left: 2%;
 }
+.input-texto:focus{
+    background-color: var(--Verde);
+}
 
 :root{
     --Amarillo: #EAC926;
