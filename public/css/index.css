@@ -126,11 +126,11 @@ background-color: #FFF;
 border-radius: 50%;
 position: relative; 
 right: 0px;
-left:165px;
-top: 185px;
+left:185px;
+top: -25px;
 }
 .div-camion{
-    position: absolute
+    position: relative;
 }
 
 .home_descripciones i {
@@ -156,12 +156,13 @@ top: 185px;
 
 @media(min-width:768px){
     .home-main-section{
-        outline: 2px solid black;
+        /* outline: 2px solid black; */
+    
     }
        .home_productos{
-        display: grid;
-        outline: 2px solid black;
-        grid-template-columns: repeat();
+       
+        /* outline: 2px solid black; */
+       
         } 
         
         h4{
@@ -220,10 +221,10 @@ top: 185px;
     border: 1px solid #39b54a;
     background-color: #FFF;
     border-radius: 50%;
-    position: relative; 
+    position: absolute; 
     right: 0px;
-    left:80px;
-    top: 94px;
+    left:100px;
+    top: -20px;
     }
   
 
@@ -283,10 +284,10 @@ top: 185px;
     border: 1px solid #39b54a;
     background-color: #FFF;
     border-radius: 50%;
-    position: relative; 
+    position: absolute; 
     right: 0px;
-    left:120px;
-    top: -30px;
+    left:150px;
+    top: -10px;
     }
   
 
@@ -302,7 +303,7 @@ top: 185px;
         border: 1px solid #39b54a;
         background-color: #FFF;
         border-radius: 50%;
-        position: relative; 
+        position: absolute; 
         right: 0px;
         left:190px;
         top: -30px;
