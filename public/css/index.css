@@ -8,20 +8,11 @@
     width: 100%;
 }
 
-body{
-
-}
-
-
-
-
 .main_home{
     background-color: var(--Gris-claro);
     width:100%;
     margin: 0px auto;
 }
-
-
 
 *{
     margin:0px;
@@ -35,6 +26,7 @@ body{
     margin-bottom: 10px;
     border-top: 1px #ebebeb solid;
     padding:15px;
+    position: relative;
 }
 .home_productos div{
     display: flex;
@@ -68,7 +60,6 @@ body{
 
 }
 
-
 .home_descripciones i{
   
     height: 2em;
@@ -91,7 +82,6 @@ body{
     text-align: center;
     margin: 0px auto;
 }
-
 
 a{
     text-decoration: none;
@@ -124,13 +114,10 @@ height: 30px;
 border: 1px solid #39b54a;
 background-color: #FFF;
 border-radius: 50%;
-position: relative; 
+position: absolute; 
 right: 0px;
-left:185px;
-top: -25px;
-}
-.div-camion{
-    position: relative;
+left:80%;
+top: 75%;
 }
 
 .home_descripciones i {
@@ -142,8 +129,13 @@ top: -25px;
     height: 100vh;
     width: 100vw;
  }
+ .home_titulo_producto{
+    display:none;
+ }
+ .home_productos img{
+    border-bottom: 1px grey solid;
+ }
  
-
 @media(max-width:320px){
  .home_titulo_producto{
     display:none;
@@ -155,22 +147,10 @@ top: -25px;
 }
 
 @media(min-width:768px){
-    .home-main-section{
-        /* outline: 2px solid black; */
-    
-    }
-       .home_productos{
-       
-        /* outline: 2px solid black; */
-       
-        } 
-        
-        h4{
-    
+     
+    h4{ 
         font-size:50px
     }
-
-
     .home_titulo_producto{
         font-size: 20px;
     }
@@ -195,6 +175,7 @@ top: -25px;
 
    .home-main-section{
     display: flex;
+    flex-direction: column;
     gap:20px;
     justify-content: center;
     
@@ -223,21 +204,25 @@ top: -25px;
     border-radius: 50%;
     position: absolute; 
     right: 0px;
-    left:100px;
-    top: -20px;
+    left:80%;
+    top:80%;
     }
   
 
+       .home_productos{
+        display: flex;
+       width: 500px;
+        } 
+        .home-main-section div{
+            display: flex;
+            gap:20px
+        }
 }
-
 
 @media(min-width:1024px){
     h4{
         font-size:50px
     }
-
-
-
     .home_titulo_producto{
         font-size: 25px;
     }
@@ -248,8 +233,8 @@ top: -25px;
     font-size: 17px;
    }
    .home_productos{
-    height:30%;
-    width: 30%;
+    height:100%;
+    width: 100%;
     margin: 0px auto;
    }
 
@@ -259,12 +244,12 @@ top: -25px;
 
  .home-main-section{
     display: flex;
+    flex-direction: row;
     gap:20px;
    }
    .home-main-section h4{
     display: block;
    }
-   .home-main-section article{}
    .home-main-section2{
     margin-top: 20px;
     padding-bottom: 20px;
@@ -286,8 +271,12 @@ top: -25px;
     border-radius: 50%;
     position: absolute; 
     right: 0px;
-    left:150px;
-    top: -10px;
+    left:77%;
+    top: 73%;
+    }
+
+    .home-main-section div{
+        display: flex;
     }
   
 
