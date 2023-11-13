@@ -42,6 +42,12 @@ main{
     color: var(--Gris-claro);
     padding-top: 1%;
     padding-bottom: 1%;
+    transition: all 420ms;
+}
+
+
+.registro button:hover{
+    background-color: #0022AA;
 }
 .input-texto{
     padding-left: 2%;

@@ -101,6 +101,18 @@
        .home_cuerpos_texto2{
            margin-left: 300px;
        }
+
+    .header_home div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .busqueda{
+      align-self: center;
+    }
+    .compra-cuotas{
+        align-self: center;
+    }
    
    }
 

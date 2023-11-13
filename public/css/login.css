@@ -35,8 +35,11 @@
     padding: 1.5%;
     border-radius: 5px;
     color: var(--Gris-claro);
+    transition: all 420ms;
 }
-
+.div-login button:hover{
+    background-color: #0022AA;
+}
 @media(min-width:768px){
 .div-login input{
     padding: 1%;
