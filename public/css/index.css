@@ -152,9 +152,9 @@ transform: rotateZ(-90deg);}
  }
  
 @media(max-width:320px){
- .home_titulo_producto{
+/*  .home_titulo_producto{
     display:none;
- }
+ } */
  .home_productos img{
     border-bottom: 1px grey solid;
  }
