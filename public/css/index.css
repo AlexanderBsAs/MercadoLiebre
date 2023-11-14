@@ -190,9 +190,11 @@ transform: rotateZ(-90deg);}
 
    .home-main-section{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap:20px;
     justify-content: center;
+    flex-wrap: wrap;
+   
     
    }
 
@@ -220,18 +222,14 @@ transform: rotateZ(-90deg);}
     position: absolute; 
     right: 0px;
     left:80%;
-    top:80%;
+    top:74%;
     }
   
 
-       .home_productos{
-        display: flex;
-       width: 500px;
+      .home_productos{
+     width: 40%;
         } 
-        .home-main-section div{
-            display: flex;
-            gap:20px
-        }
+ 
 }
 
 @media(min-width:1024px){
@@ -260,6 +258,7 @@ transform: rotateZ(-90deg);}
  .home-main-section{
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     gap:20px;
    }
    .home-main-section h4{
@@ -287,14 +286,12 @@ transform: rotateZ(-90deg);}
     position: absolute; 
     right: 0px;
     left:77%;
-    top: 73%;
+    top: 68%;
     }
-
-    .home-main-section div{
-        display: flex;
+ /*    .home_productos{
+        width:50%;
     }
-  
-
+ */
 }
 /* @media(min-width:1439px){
     .fa-solid.fa-truck-fast{
